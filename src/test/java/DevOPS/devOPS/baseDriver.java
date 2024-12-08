@@ -14,7 +14,7 @@ public class baseDriver {
 	
 	public static WebDriver Chromedriver() {
 		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")
-				  + "\\ChromeDriver\\chrome.exe");
+				  + "ChromeDriver/chrome.exe");
 		WebDriver driver = new ChromeDriver();
 		return driver;
 
