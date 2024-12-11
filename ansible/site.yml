@@ -1,5 +1,5 @@
 ---
-- imort_playbook: 2024_tomcat_setup.yml
+- import_playbook: 2024_tomcat_setup.yml
 # - import_playbook: tomcat_setup.yml
 # - import_playbook: vpro-app-setup.yml 
 
